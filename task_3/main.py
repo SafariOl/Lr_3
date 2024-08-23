@@ -4,5 +4,6 @@ uniq_words = set()
 
 for word in words: 
     uniq_words.add(word)
-
-print(uniq_words)
+print("Унікальні слова у введенному речені:")
+for uni_word in uniq_words :
+    print(uni_word, end=" ")
